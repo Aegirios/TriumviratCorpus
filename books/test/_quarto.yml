@@ -1,0 +1,11 @@
+project:
+  type: book
+
+book:
+  title: "livre de test"
+  chapters:
+    - index.qmd
+    - chapitre1.qmd
+
+format:
+  html
