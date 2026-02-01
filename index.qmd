@@ -1,0 +1,11 @@
+---
+title: "Accueil"
+---
+
+Bienvenue sur mon site Quarto.
+
+## 📚 Books
+- [Mon Livre](books/mon-livre/)
+
+## 📄 Manuscripts
+- [Article 1](manuscripts/article1/)
