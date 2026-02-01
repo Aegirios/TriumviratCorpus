@@ -19,7 +19,11 @@ jobs:
       - name: Render Quarto
         uses: quarto-dev/quarto-actions/render@v2
 
-      - name: Deploy to GitHub Pages
+      - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          publish_dir: _site
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
