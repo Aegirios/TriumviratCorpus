@@ -1,0 +1,18 @@
+project:
+  type: website
+
+website:
+  title: "Mon site Quarto"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: books/index.qmd
+        text: Books
+      - href: manuscripts/index.qmd
+        text: Manuscripts
+
+format:
+  html:
+    theme: cosmo
+    toc: true
