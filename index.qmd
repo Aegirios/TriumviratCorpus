@@ -5,7 +5,7 @@ title: "Accueil"
 Bienvenue sur mon site Quarto.
 
 ## 📚 Books
-- [Mon Livre](books/mon-livre/)
+- [Test](books/test/)
 
 ## 📄 Manuscripts
 - [Article 1](manuscripts/article1/)
