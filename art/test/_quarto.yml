@@ -1,0 +1,10 @@
+project:
+  type: book
+
+book:
+  title: "Réflexions"
+  chapters:
+    - index.qmd
+
+format:
+  html
