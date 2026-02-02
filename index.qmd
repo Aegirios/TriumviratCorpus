@@ -7,5 +7,5 @@ Bienvenue sur mon site Quarto.
 ## 📚 Books
 - [Test](books/test/)
 
-## 📄 Manuscripts
+## 📄 Manuscrits
 - [Article 1](manuscripts/article1/)
