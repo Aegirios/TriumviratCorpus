@@ -9,7 +9,7 @@ website:
         text: Accueil
       - href: books/index.html
         text: Corpus
-      - href: art.html
+      - href: art/index.html
         text: A.R.T.
       - href: about.html
         text: À propos
