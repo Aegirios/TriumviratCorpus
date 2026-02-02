@@ -10,3 +10,4 @@ art <- yaml.load_file("_data/art.yml")
 for (a in art) {
   cat(sprintf("- [%s](%s)\n", a$title, a$path))
 }
+```
