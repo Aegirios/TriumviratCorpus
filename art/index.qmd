@@ -1,7 +1,12 @@
 ---
-title: "Books"
+title: "A.R.T."
 ---
 
-les livres
-## 📚 Books
-- [Mon Livre](/mon-livre/)
+## Publications A.R.T.
+
+```{r}
+library(yaml)
+art <- yaml.load_file("_data/art.yml")
+for (a in art) {
+  cat(sprintf("- [%s](%s)\n", a$title, a$path))
+}
