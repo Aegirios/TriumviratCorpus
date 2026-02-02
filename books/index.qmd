@@ -10,3 +10,4 @@ books <- yaml.load_file("_data/books.yml")
 for (b in books) {
   cat(sprintf("- [%s](%s)\n", b$title, b$path))
 }
+```
