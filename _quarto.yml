@@ -5,11 +5,11 @@ website:
   title: "Mon site Quarto"
   navbar:
     left:
-      - href: index.qmd
+      - href: index.html
         text: Accueil
-      - href: books/index.qmd
+      - href: books/index.html
         text: Books
-      - href: manuscripts/index.qmd
+      - href: manuscripts/index.html
         text: Manuscripts
 
 format:
