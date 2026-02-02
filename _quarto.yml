@@ -2,17 +2,19 @@ project:
   type: website
 
 website:
-  title: "Triumvirat Corpus"
+  title: "TriumPortal"
   navbar:
     left:
       - href: index.html
         text: Accueil
       - href: books/index.html
-        text: Books
-      - href: manuscripts/index.html
-        text: Manuscripts
+        text: Corpus
+      - href: art.html
+        text: A.R.T.
+      - href: about.html
+        text: À propos
 
 format:
   html:
-    theme: cosmo
+    theme: cosmo         # sobre et minimaliste
     toc: true
